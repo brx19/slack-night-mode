@@ -56,7 +56,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .c-scrollbar--monkey .c-scrollbar__bar { background: #545454; box-shadow: 0 3px 0 #222, 0 -3px 0 #222; }
 
-.client_channels_list_container { background-color: #363636; border-right-color: #222; }
+/* .client_channels_list_container { background-color: #363636; border-right-color: #222; }
 
 #col_channels { color: #e6e6e6; }
 
@@ -120,7 +120,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 #channel_list_invites_link { border-bottom: 1px dotted #949494; color: #949494 !important; font-size: 0.9rem; }
 
-#channel_list_invites_link:hover { border-bottom: 1px solid #949494; }
+#channel_list_invites_link:hover { border-bottom: 1px solid #949494; } */
 
 #quick_switcher_btn { background: #363636; border-top: 2px solid #363636; }
 
@@ -3775,7 +3775,7 @@ table.gray_header_border tr:first-child th:not(:only-of-type) { border-bottom-co
 .legal-main a { border-bottom-color: #545454; }
 
 @media screen and (min-width: 67.8125rem) { .legal-main .c-nav--sidebar__listheader { color: #e6e6e6; }
-  .legal-main .c-nav--sidebar__listitem a.is-selected { color: #949494; } }
+.legal-main .c-nav--sidebar__listitem a.is-selected { color: #949494; } }
 
 .legal-main .t-contains-subtle-links a:not(.c-button) { color: #e6e6e6; }
 
