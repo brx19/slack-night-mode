@@ -4067,6 +4067,8 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .c-fullscreen_modal__body .channel_option_item:hover { background: #484848; color: #e6e6e6; }
 
+.c-fullscreen_modal__content .c-button-unstyled.c-fullscreen_modal__close.c-fullscreen_modal__close--with_header:hover { color: #e6e6e6; }
+
 .p-channel_insights__message ts-message.standalone .message_content .message_body a { color: #0576b9; }
 
 .c-file__slide--meta { background: #000000 !important; }
