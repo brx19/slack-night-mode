@@ -4073,4 +4073,4 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .c-file__slide--meta { background: #000000 !important; }
 
-#client_body:not(.onboarding):not(.feature_global_nav_layout)::before { box-shadow: inset 0px 0 0 0 #222; }
+#client_body:not(.onboarding):not(.feature_global_nav_layout)::before { box-shadow: inset 1px 0 0 0 #222; }
