@@ -3997,7 +3997,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .c-fullscreen_modal__header .channel_options_header span { color: #919193; }
 
-.p-downloads_list__shift_hint, .p-jumper .p-jumper__help, .p-block_kit_date_picker_calendar_wrapper { background: #323232; background-color: #323232; }
+.p-downloads_list__shift_hint, .p-jumper .p-jumper__help, .p-block_kit_date_picker_calendar_wrapper, .c-dialog_speed_bump { background: #323232; background-color: #323232; }
 
 .c-fullscreen_modal__body .channel_option_item:hover { background: #484848; color: #e6e6e6; }
 
