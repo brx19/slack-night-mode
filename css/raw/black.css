@@ -164,7 +164,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_attachment, .c-button.c-button--outline { border: 1px solid #545454; color: #000 !important; } 
 
-.btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus { background-color: #545454; border: 1px solid #828282; color: #e6e6e6 !important; } 
+.btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus { background-color: #545454 !important; border: 1px solid #828282; color: #e6e6e6 !important; } 
 
 .btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger { border-color: #bf360c; background-color: #FFFFFF !important; color: #d72b3f !important; }
 
