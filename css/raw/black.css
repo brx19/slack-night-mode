@@ -162,13 +162,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_outline.disabled:hover { background: #424242 !important; color: #949494 !important; }
 
-.btn.btn_attachment, .c-button.c-button--outline { border-color: #545454; color: #000 !important; } 
+.btn.btn_attachment, .c-button.c-button--outline { border: 1px solid #545454; color: #000 !important; } 
 
-.btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus { border-color: #828282; color: #e6e6e6 !important; } 
+.btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus { background-color: #545454; border: 1px solid #828282; color: #e6e6e6 !important; } 
 
 .btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger { border-color: #bf360c; background-color: #FFFFFF !important; color: #d72b3f !important; }
 
-.btn.btn_attachment.btn_danger:hover, .btn.btn_attachment.btn_danger:focus, .c-button.c-button--outline-danger:hover, .c-button.c-button--outline-danger:focus { border-color: #ef440f; background-color: #d72b3f !important; color: #FFFFFF !important; }
+.btn.btn_attachment.btn_danger:hover, .btn.btn_attachment.btn_danger:focus, .c-button.c-button--outline-danger:hover, .c-button.c-button--outline-danger:focus { border: 1px solid #FFFFFF; background-color: #d72b3f !important; color: #FFFFFF !important; }
 
 .btn.btn_attachment.btn_primary { border-color: #828282; }
 
