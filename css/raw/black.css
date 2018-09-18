@@ -4021,5 +4021,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .p-app_dialog .c-dialog__body .p-app_dialog_elements form .c-label span .c-input_textarea__wrapper .c-input_character_count .c-input_textarea, .p-app_dialog .c-dialog__body .p-app_dialog_elements form .c-label span .c-input_textarea__wrapper .c-input_character_count:after { background: #222; color: #FFFFFF; }
 
-.jamazon_popover.sh_popover .content_wrapper .content.align_center { color: #FFFFFF; }
-.jamazon_popover.sh_popover .content_wrapper { background: #323232; }
+.jamazon_popover.sh_popover.sh_popover_error.show .content_wrapper .content.align_center { color: #FFFFFF; }
+.jamazon_popover.sh_popover.sh_popover_error.show .content_wrapper { background: #323232; }
+
+.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #FFFFFF; color: #323232 !important; }
