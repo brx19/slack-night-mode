@@ -168,11 +168,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger { border-color: #bf360c; background-color: #FFFFFF !important; color: #d72b3f !important; }
 
-.btn.btn_attachment.btn_danger:hover, .btn.btn_attachment.btn_danger:focus, .c-button.c-button--outline-danger:hover, .c-button.c-button--outline-danger:focus { border: 1px solid #FFFFFF; background-color: #d72b3f !important; color: #FFFFFF !important; }
+.btn.btn_attachment.btn_danger:hover, .btn.btn_attachment.btn_danger:focus, .c-button.c-button--outline-danger:hover, .c-button.c-button--outline-danger:focus { border: 1px solid #828282; background-color: #d72b3f !important; color: #FFFFFF !important; }
 
-.btn.btn_attachment.btn_primary { border-color: #828282; }
+.btn.btn_attachment.btn_primary { border-color: #9c9c9c; }
 
-.btn.btn_attachment.btn_primary:hover, .btn.btn_attachment.btn_primary:focus { border-color: #9c9c9c; }
+.btn.btn_attachment.btn_primary:hover, .btn.btn_attachment.btn_primary:focus { border-color: #828282; }
 
 .btn_basic:focus, .btn_basic:hover { color: #e6e6e6; }
 
@@ -4026,4 +4026,4 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 .ts_icon_cog_o:hover, .ts_icon_cog_o:focus { color: #ce0ab4; } 
 .ts_icon_vertical_ellipsis:hover, .ts_icon_vertical_ellipsis:focus { color: #735ee2; }
 .c-message__editor__save { background: #FFFFFF; color: #008952; border: 1px solid #008952; } 
-.c-message__editor__save:focus, .c-message__editor__save:hover { background: #008952; color: #FFFFFF; border: 1px solid #FFFFFF; }
+.c-message__editor__save:focus, .c-message__editor__save:hover { background: #008952; color: #FFFFFF; border: 1px solid #828282; }
