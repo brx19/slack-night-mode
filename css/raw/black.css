@@ -2399,7 +2399,7 @@ a.c-member_slug--mention, a.c-member_slug--mention:hover { background-color: #ff
 
 .p-apps_browser__app_info { color: #e6e6e6; }
 
-.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #545454; border-color: #828282; color: #e6e6e6; }
+.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #FFFFFF !important; color: #323232 !important; }
 
 .p-apps_browser__browse_apps:hover, .p-apps_browser__browse_apps:focus, .p-apps_browser__app_action:hover, .p-apps_browser__app_action:focus { background-color: #828282; color: #e6e6e6; }
 
@@ -4023,5 +4023,3 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .jamazon_popover.sh_popover.sh_popover_error.show .content_wrapper .content.align_center { color: #FFFFFF; }
 .jamazon_popover.sh_popover.sh_popover_error.show .content_wrapper { background: #323232; }
-
-.p-apps_browser__browse_apps, .p-apps_browser__app_action { background-color: #FFFFFF !important; color: #323232 !important; }
