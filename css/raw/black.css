@@ -3993,7 +3993,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .p-file_upload_dialog__preview, .c-input_select--short { background: padding-box; }
 
-.p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display), div#footer div#footer_msgs, .c-fullscreen_modal__header, .c-fullscreen_modal__body, .c-fullscreen_modal__content.channel_options_modal.c-fullscreen_modal__content--with_header.c-fullscreen_modal__content--before-open.c-fullscreen_modal__content--after-open .c-fullscreen_modal__header,.c-fullscreen_modal__content.channel_options_modal.c-fullscreen_modal__content--with_header.c-fullscreen_modal__content--before-open.c-fullscreen_modal__content--after-open .c-fullscreen_modal__body { background: #222; !important }
+.p-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display), div#footer div#footer_msgs, .c-fullscreen_modal__header, .c-fullscreen_modal__body, .c-fullscreen_modal__content.channel_options_modal.c-fullscreen_modal__content--with_header.c-fullscreen_modal__content--before-open.c-fullscreen_modal__content--after-open .c-fullscreen_modal__header,.c-fullscreen_modal__content.channel_options_modal.c-fullscreen_modal__content--with_header.c-fullscreen_modal__content--before-open.c-fullscreen_modal__content--after-open .c-fullscreen_modal__body { background: #222 !important; }
 
 .c-fullscreen_modal__header .channel_options_header span { color: #919193; }
 
@@ -4022,7 +4022,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 .p-app_dialog .c-dialog__body .p-app_dialog_elements form .c-label span .c-input_textarea__wrapper .c-input_character_count .c-input_textarea, .p-app_dialog .c-dialog__body .p-app_dialog_elements form .c-label span .c-input_textarea__wrapper .c-input_character_count:after { background: #222; color: #FFFFFF; }
 
 .call_icon:hover, .call_icon:focus { color: #64cb4e; }
-.ts_icon_info_circle:hover, .ts_icon_info_circle:focus { color: #2d9ee0; } 
+.ts_icon_info_circle:hover, .ts_icon_info_circle:focus { color: #2d9ee0; }
 .ts_icon_cog_o:hover, .ts_icon_cog_o:focus { color: #bb68f7; }
 .ts_icon_vertical_ellipsis:hover, .ts_icon_vertical_ellipsis:focus { color: #8b93ee; }
 .c-message__editor__save, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
