@@ -166,7 +166,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:hover { background-color: #545454 !important; border: 1px solid #828282; color: #e6e6e6 !important; } 
 
-.btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger, #terminal_container .invite_response_content.centered_content button.btn.cancel { border: 1px solid #bf360c !important; background-color: #FFFFFF !important; color: #d72b3f !important; }
+.btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger, #terminal_container .invite_response_content.centered_content button.btn.cancel { border: 1px solid #545454 !important; background-color: #FFFFFF !important; color: #d72b3f !important; }
 
 .btn.btn_attachment.btn_danger:hover, .btn.btn_attachment.btn_danger:focus, .c-button.c-button--outline-danger:hover, .c-button.c-button--outline-danger:focus, #terminal_container .invite_response_content.centered_content button.btn.cancel:hover, #terminal_container .invite_response_content.centered_content button.btn.cancel:focus { border: 1px solid #828282 !important; background-color: #d72b3f !important; color: #FFFFFF !important; }
 
