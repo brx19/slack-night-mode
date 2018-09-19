@@ -4025,7 +4025,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 .ts_icon_info_circle:hover, .ts_icon_info_circle:focus { color: #2d9ee0; } 
 .ts_icon_cog_o:hover, .ts_icon_cog_o:focus { color: #bb68f7; }
 .ts_icon_vertical_ellipsis:hover, .ts_icon_vertical_ellipsis:focus { color: #8b93ee; }
-.c-message__editor__save { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
-.c-message__editor__save:focus, .c-message__editor__save:hover { background: #008952; color: #FFFFFF; border: 1px solid #828282; }
+.c-message__editor__save, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
+.c-message__editor__save:focus, .c-message__editor__save:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:focus { background: #008952; color: #FFFFFF; border: 1px solid #828282; }
 .c-button.c-button--outline-primary { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
 .c-button.c-button--outline-primary:focus, .c-button.c-button--outline-primary:hover { background: #008952; color: #FFFFFF; border: 1px solid #828282; }
