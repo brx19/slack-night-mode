@@ -164,7 +164,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_attachment, .c-button.c-button--outline { border: 1px solid #545454; color: #000 !important; } 
 
-.btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:hover { background-color: #545454 !important; border: 1px solid #828282; color: #e6e6e6 !important; } 
+.btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:hover, #calls_conference_content .content_wrapper .content .top_margin .btn:focus, #calls_conference_content .content_wrapper .content .top_margin .btn:hover { background-color: #545454 !important; border: 1px solid #828282; color: #e6e6e6 !important; } 
 
 .btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger, #terminal_container .invite_response_content.centered_content button.btn.cancel { border: 1px solid #545454 !important; background-color: #FFFFFF !important; color: #d72b3f !important; }
 
@@ -3997,7 +3997,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .c-fullscreen_modal__header .channel_options_header span { color: #919193; }
 
-.p-downloads_list__shift_hint, .p-jumper .p-jumper__help, .p-block_kit_date_picker_calendar_wrapper, .p-app_dialog .c-dialog_speed_bump_wrapper .c-dialog_speed_bump { background: #323232; background-color: #323232; }
+.p-downloads_list__shift_hint, .p-jumper .p-jumper__help, .p-block_kit_date_picker_calendar_wrapper, .p-app_dialog .c-dialog_speed_bump_wrapper .c-dialog_speed_bump, #calls_conference_content .content_wrapper .content { background: #323232; background-color: #323232; }
 
 .c-fullscreen_modal__body .channel_option_item:hover { background: #484848; color: #e6e6e6; }
 
@@ -4043,6 +4043,6 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:hover, #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:focus, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:hover, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:focus { background: #008952 !important; color: #FFFFFF !important; border: 1px solid #828282; }
 
-#terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
+#terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin, #calls_conference_content .content_wrapper .content .top_margin .btn { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
 
 .c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * { color: #e37808 !important; }
