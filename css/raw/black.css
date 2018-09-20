@@ -4011,7 +4011,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .p-channel_insights__message--truncate::before { background: linear-gradient(180deg,transparent,#363636 90%) !important; }
 
-#notification_banner:before { border-bottom: 1px solid #363636; }
+#notification_banner:before, .p-message_pane_banner:before { border-bottom: 1px solid #363636; }
 
 .c-calendar_view_header__stepper_btn:disabled, .c-calendar_view_header__title_btn:disabled, .c-button-unstyled.c-calendar_view_header__stepper_btn.c-calendar_view_header__left_stepper_btn, .c-button-unstyled.c-calendar_view_header__stepper_btn.c-calendar_view_header__right_stepper_btn { color: #545454; }
 
@@ -4032,7 +4032,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .c-search_modal .c-search__input_box__clear { border: 1px solid rgba(255,255,255,.15); color: #FFFFFF;  }
 
-#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link { background: #FFFFFF !important; color: #008952 !important; border: 1px solid #545454; } 
-#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:hover, #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:focus { background: #008952 !important; color: #FFFFFF !important; border: 1px solid #828282; }
+#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary { background: #FFFFFF !important; color: #008952 !important; border: 1px solid #545454; } 
+#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:hover, #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:focus, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:hover, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:focus { background: #008952 !important; color: #FFFFFF !important; border: 1px solid #828282; }
 #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
  { color: #FFFFFF !important; background: #545454 !important; border: 1px solid #545454; }
