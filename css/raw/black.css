@@ -166,9 +166,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .btn.btn_attachment:hover, .btn.btn_attachment:focus, .c-button.c-button--outline:hover, .c-button.c-button--outline:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:focus, #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin:hover, #calls_conference_content .content_wrapper .content .top_margin .btn:focus, #calls_conference_content .content_wrapper .content .top_margin .btn:hover { background-color: #545454 !important; border: 1px solid #828282; color: #e6e6e6 !important; } 
 
-.btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger, #terminal_container .invite_response_content.centered_content button.btn.cancel { border: 1px solid #545454 !important; background-color: #FFFFFF !important; color: #d72b3f !important; }
+.btn.btn_attachment.btn_danger, .c-button.c-button--outline-danger, #terminal_container .invite_response_content.centered_content button.btn.cancel, .new_channel_modal_footer button.new_channel_cancel_btn { border: 1px solid #545454 !important; background-color: #FFFFFF !important; color: #d72b3f !important; }
 
-.btn.btn_attachment.btn_danger:hover, .btn.btn_attachment.btn_danger:focus, .c-button.c-button--outline-danger:hover, .c-button.c-button--outline-danger:focus, #terminal_container .invite_response_content.centered_content button.btn.cancel:hover, #terminal_container .invite_response_content.centered_content button.btn.cancel:focus { border: 1px solid #828282 !important; background-color: #d72b3f !important; color: #FFFFFF !important; }
+.btn.btn_attachment.btn_danger:hover, .btn.btn_attachment.btn_danger:focus, .c-button.c-button--outline-danger:hover, .c-button.c-button--outline-danger:focus, #terminal_container .invite_response_content.centered_content button.btn.cancel:hover, #terminal_container .invite_response_content.centered_content button.btn.cancel:focus, .new_channel_modal_footer button.new_channel_cancel_btn:focus, .new_channel_modal_footer button.new_channel_cancel_btn:hover { border: 1px solid #828282 !important; background-color: #d72b3f !important; color: #FFFFFF !important; }
 
 .btn.btn_attachment.btn_primary { border-color: #9c9c9c; }
 
@@ -4029,9 +4029,11 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .ts_icon_vertical_ellipsis:hover, .ts_icon_vertical_ellipsis:focus { color: #8b93ee; }
 
-.c-message__editor__save, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
+.c-message__editor__save, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary, .new_channel_modal_footer button#save_channel { background: #FFFFFF; color: #008952 !important; border: 1px solid #545454; }
 
-.c-message__editor__save:focus, .c-message__editor__save:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:focus { background: #008952; color: #FFFFFF; border: 1px solid #828282; }
+.c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary.c-button--disabled, .new_channel_modal_footer button#save_channel[disabled="disabled"] { background: #333333 !important; color: #797979 !important; border: 1px solid #545454 !important; }
+
+.c-message__editor__save:focus, .c-message__editor__save:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:focus, .new_channel_modal_footer button#save_channel:hover, .new_channel_modal_footer button#save_channel:focus { background: #008952; color: #FFFFFF !important; border: 1px solid #828282; }
 
 .c-button.c-button--outline-primary { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
 
@@ -4046,3 +4048,5 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin, #calls_conference_content .content_wrapper .content .top_margin .btn { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
 
 .c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * { color: #e37808 !important; }
+
+.c-dialog__close:hover { color: #d72b3f; }
