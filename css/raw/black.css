@@ -4022,16 +4022,27 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 .p-app_dialog .c-dialog__body .p-app_dialog_elements form .c-label span .c-input_textarea__wrapper .c-input_character_count .c-input_textarea, .p-app_dialog .c-dialog__body .p-app_dialog_elements form .c-label span .c-input_textarea__wrapper .c-input_character_count:after { background: #222; color: #FFFFFF; }
 
 .call_icon:hover, .call_icon:focus { color: #008952; }
+
 .ts_icon_info_circle:hover, .ts_icon_info_circle:focus { color: #2d9ee0; }
+
 .ts_icon_cog_o:hover, .ts_icon_cog_o:focus { color: #bb68f7; }
+
 .ts_icon_vertical_ellipsis:hover, .ts_icon_vertical_ellipsis:focus { color: #8b93ee; }
+
 .c-message__editor__save, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
+
 .c-message__editor__save:focus, .c-message__editor__save:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:hover, .c-dialog__footer .c-dialog__footer_buttons .c-button.c-button--primary:focus { background: #008952; color: #FFFFFF; border: 1px solid #828282; }
+
 .c-button.c-button--outline-primary { background: #FFFFFF; color: #008952; border: 1px solid #545454; }
+
 .c-button.c-button--outline-primary:focus, .c-button.c-button--outline-primary:hover { background: #008952; color: #FFFFFF; border: 1px solid #828282; }
 
 .c-search_modal .c-search__input_box__clear { border: 1px solid rgba(255,255,255,.15); color: #FFFFFF;  }
 
 #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary { background: #FFFFFF !important; color: #008952 !important; border: 1px solid #545454; } 
+
 #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:hover, #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:focus, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:hover, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:focus { background: #008952 !important; color: #FFFFFF !important; border: 1px solid #828282; }
+
 #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
+
+.c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * { color: #e37808 !important; }
