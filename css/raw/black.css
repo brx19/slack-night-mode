@@ -4062,3 +4062,5 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 .p-search_filter__datepicker_trigger { color: #000 !important; background: #FFFFFF !important; }
 
 .p-search_filter__datepicker_trigger:hover, .p-search_filter__datepicker_trigger:focus { background-color: #545454 !important; color: #e6e6e6 !important; } 
+
+.c-date_picker_calendar__date { background: #545454; }
