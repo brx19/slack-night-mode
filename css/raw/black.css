@@ -4047,7 +4047,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:hover, #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:focus, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:hover, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:focus { background: #008952 !important; color: #FFFFFF !important; border: 1px solid #828282; }
 
-#terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin, #calls_conference_content .content_wrapper .content .top_margin .btn, .p-search_filter__datepicker_trigger { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
+#terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin, #calls_conference_content .content_wrapper .content .top_margin .btn { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
 
 .c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * { color: #e37808 !important; }
 
