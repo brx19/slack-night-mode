@@ -4051,7 +4051,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper * { color: #e37808 !important; }
 
-.c-dialog__close:hover { color: #d72b3f; }
+.c-dialog__close:hover, .c-dialog__close:focus, .c-button-unstyled.c-search__input_and_close__close:hover, .c-button-unstyled.c-search__input_and_close__close:focus { color: #d72b3f; }
 
 .c-input_select_options_list__empty_state { color: #828282; }
 
