@@ -1527,7 +1527,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 .reply_input_container .inline_message_input_container .ql-container ~ .emo_menu { color: #949494; }
 
-#file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container { color: #949494; }
+#file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, #reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container, .reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container { color: #FFFFFF; }
 
 #unread_msgs_scroller_div::after { background: transparent; }
 
@@ -1591,7 +1591,7 @@ ts-thread .new_reply_indicator .blue_dot { color: #bf360c; }
 
 #flex_contents .heading .menu_icon:hover { color: #c7c7c7; }
 
-#flex_contents .heading_text { color: #949494; }
+#flex_contents .heading_text { color: #FFFFFF; font-weight: 900; }
 
 #flex_contents .subheading:not(.empty) { background: #222; border-top: 1px solid #000; color: #949494; }
 
@@ -4043,9 +4043,9 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 
 .c-search_modal .c-search__input_box__clear { border: 1px solid rgba(255,255,255,.15); color: #FFFFFF; }
 
-#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary { background: #FFFFFF !important; color: #008952 !important; border: 1px solid #545454; } 
+#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary, .reply_broadcast_label_container .reply_send { background: #FFFFFF !important; color: #008952 !important; border: 1px solid #545454; } 
 
-#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:hover, #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:focus, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:hover, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:focus { background: #008952 !important; color: #FFFFFF !important; border: 1px solid #828282; }
+#member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:hover, #member_preview_scroller .member_action_bar a.c-button.c-button--outline.c-button--medium.internal_im_call_link:focus, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:hover, .p-message_pane_banner .p-message_pane_banner__button_container .c-button.c-button--primary:focus, .reply_broadcast_label_container .reply_send:hover, .reply_broadcast_label_container .reply_send:focus { background: #008952 !important; color: #FFFFFF !important; border: 1px solid #828282; }
 
 #terminal_container .invite_response_content.centered_content button.btn.btn_outline.btn_transparent.action.small_right_margin, #calls_conference_content .content_wrapper .content .top_margin .btn { color: #000 !important; background: #FFFFFF !important; border: 1px solid #545454; }
 
