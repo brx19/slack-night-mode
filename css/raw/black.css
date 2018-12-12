@@ -4066,3 +4066,7 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 .c-date_picker_calendar__date { background: #545454; } 
 
 .c-date_picker_calendar__date--disabled { background: #f9f9f9; }
+
+.c-message__editor__input--legacy { background-color: #919193; color: #2c2d30; border-color: #828282; }
+
+.c-message__editor__input--legacy.focus { border-color: #828282 !important; }
