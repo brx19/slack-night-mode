@@ -2151,7 +2151,7 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 #team_tab #member_preview_scroller { background-color: #222; }
 
-#member_preview_scroller .member_details .member_name_and_presence .member_name, #member_preview_web_container .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_name_and_presence .member_name { color: #e6e6e6; }
+#member_preview_scroller .member_details .member_name_and_presence .member_name, #member_preview_web_container .member_details .member_name_and_presence .member_name, .menu_member_header .member_details .member_name_and_presence .member_name { color: #e6e6e6 !important; }
 
 #member_preview_scroller .member_details .member_title, #member_preview_web_container .member_details .member_title, .menu_member_header .member_details .member_title { color: #e6e6e6; }
 
@@ -4074,3 +4074,5 @@ div#msg_input, div.msg_input_wrapper #primary_file_button, .c-filter_input, div#
 #im_browser .qs_tip.alert { border-left: 1px solid #000; }
 
 .p-shortcuts_prompt__shortcut_text { margin-left: 0px; }
+
+.c-search__input_box .c-search__input_box__input { height: 25px; }
